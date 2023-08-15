@@ -27,6 +27,9 @@ These are tested in a K3s cluster created by `k3d` on macOS.
 curl -k https://kubernetes.default.svc/api/v1/namespaces/default/pods -H "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)"
 ```
 
+<img width="1432" alt="image" src="https://github.com/douenergy/k3url/assets/103009868/0c1ba582-3e8b-41dc-8b93-206b198658e3">
+
 4. To check the logs of the `dummy` Pod and see the ping results:
 
 5. After all `k3d cluster delete  curlster`
+
