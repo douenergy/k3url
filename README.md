@@ -13,7 +13,7 @@ These are tested in a K3s cluster created by `k3d` on macOS.
 
 1. Apply the Pod manifests to your cluster: 
     * `kubectl apply -f curlpod-serviceaccount.yaml`
-    * ` kubectl apply -f pod-list-role.yaml`
+    * `kubectl apply -f pod-list-role.yaml`
     * `kubectl apply -f pod-list-rolebinding.yaml`
     * `kubectl apply -f curl-pod.yaml` 
     * `kubectl apply -f dummy-pod.yaml`
