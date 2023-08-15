@@ -28,3 +28,5 @@ curl -k https://kubernetes.default.svc/api/v1/namespaces/default/pods -H "Author
 ```
 
 4. To check the logs of the `dummy` Pod and see the ping results:
+
+5. After all `k3d cluster delete  curlster`
